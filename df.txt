@@ -1,0 +1,13 @@
+backend
+
+-build  (only if we are doing exe file )
+-cmd    (here is where the main files u will contain i will call from controller)
+-controller (here is where the actual controll go call from services)
+-repository (here we do some hard coding with some actual functions)
+-services   (here we do services by calling those funtions from services)
+-model  ( here we convert the database schema in  typedef struct assigning variables )
+
+go run main.go
+
+npm install
+npm run dev
